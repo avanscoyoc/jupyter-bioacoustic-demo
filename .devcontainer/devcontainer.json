@@ -3,6 +3,7 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
+  "runArgs": ["--init"],
   "customizations": {
     "vscode": {
       "extensions": [
@@ -12,5 +13,5 @@
     }
   },
   "postCreateCommand": "pixi install",
-  "forwardPorts": [8888]
+  "remoteUser": "root"
 }
