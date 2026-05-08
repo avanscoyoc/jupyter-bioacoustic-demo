@@ -1,3 +1,5 @@
 .pixi/
 __pycache__/
 .DS_Store
+audio/
+dist/
