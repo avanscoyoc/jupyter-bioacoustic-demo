@@ -10,5 +10,8 @@ notebook = "7.*"
 ipywidgets = "8.*"
 ipykernel = "*"
 
+[pypi-dependencies]
+jupyter-bioacoustic = "==0.5.0"
+
 [tasks]
 lab = "jupyter lab --ip=0.0.0.0 --no-browser --allow-root"
