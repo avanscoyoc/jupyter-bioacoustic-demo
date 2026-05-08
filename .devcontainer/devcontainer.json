@@ -1,0 +1,16 @@
+{
+  "name": "jupyter-bioacoustic-demo",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter"
+      ]
+    }
+  },
+  "postCreateCommand": "pixi install",
+  "forwardPorts": [8888]
+}
